@@ -24,6 +24,9 @@ module.exports = {
             }
         ],
     },
+    devServer: {
+        open: true
+    },
 
     devtool: 'inline-source-map',
 };
